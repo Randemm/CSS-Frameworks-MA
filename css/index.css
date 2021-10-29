@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url("/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+  height: 100vh;
+}
+
+header {
+  background: #f4f3ee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main {
+  margin: auto;
+  max-width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+p {
+  color: #262626;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2em 2em 0em;
+}
+
+nav .logo {
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+  color: #262626;
+}
+
+nav .search-bar {
+  letter-spacing: 1.6em;
+}
+/*# sourceMappingURL=index.css.map */
