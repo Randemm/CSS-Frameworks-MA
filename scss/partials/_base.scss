@@ -1,0 +1,17 @@
+body {
+  background-color: getColour(tertiary);
+  margin: 0;
+  height: 100vh;
+}
+header {
+  background: getColour(secondary);
+  display: flex;
+}
+main {
+  margin: auto;
+  max-width: 1140px;
+  display: flex;
+}
+p {
+  color: getColour(primary);
+}
